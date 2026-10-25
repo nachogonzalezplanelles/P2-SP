@@ -1,0 +1,57 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    height: 100vh;
+}
+
+.cosas, .question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 2 rem;
+}
+
+.todo label {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 2 rem;
+}
+
+.ussername input, .password input {
+    font-size: 20px;
+    padding: 0.5rem;
+
+}
+
+.todo button, .registrarse {
+    display: flex;
+    width: 12rem; 
+    height: 3.5rem;
+    font-size: 2 rem;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+.image{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    
+}

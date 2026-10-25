@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School login</title>
+
+    
+</head>
+<body>
+
+    <div class="todo">
+            <img class="image" src="https://www.fontys.nl/static/fontysrdpresentation/images/defaultsocialmediaimage.jpeg" alt="School Image">
+
+            <form class="cosas" action="/register" method="POST">
+
+                <div class="question">
+                    <label>Log in as a student or as a teacher</label>
+                    <button class="button-st" id="student" name="student" type="submit">Student</button>
+                    <button class="button-tch" id="teacher" name="teacher" type="submit">Teacher</button>
+                </div>
+            </form>
+            
+
+    </div> 
+    
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='P2.css') }}">
+</body>
+</html>

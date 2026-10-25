@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+</head>
+<body>
+    <div class="todo">
+            <img class="image" src="https://www.fontys.nl/static/fontysrdpresentation/images/defaultsocialmediaimage.jpeg" alt="School Image">
+        
+            <form class="cosas" action="/inputs" method="POST">
+                <label>Add your credentials, if you do not have one, create one </label>
+
+                <div class="ussername">
+                    <label for="uss">Username</label>
+                    <input type="text" id="usuario" name="usuario" required>
+
+                </div>
+                <div class="password">
+                    <label for="pss">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+            </form>
+
+            <form class="cosas" action="/login" method="POST">
+                <button id="login" name="login" type="submit">Log in</button>
+            </form>
+
+
+    </div>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='P2.css') }}">
+</body>
+</html>
